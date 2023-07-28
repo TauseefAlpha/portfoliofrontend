@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useRef, useState, useEffect } from 'react'
 import "./navstyle.scss"
 import { FaLinkedin } from "react-icons/fa"
 import Btn from '../button/btn'
-import logo from "../../assets/taLogo.png"
+import logo from "../../assets/logodev.png"
 
 
 
@@ -34,7 +34,7 @@ const Navbar = ({ timeline, ease }) => {
               src={logo}
               color='rgb(50,205,50)'
               alt="logo"
-              width={250}
+              height={60}
             />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
