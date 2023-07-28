@@ -1,0 +1,28 @@
+$lightgreen: #64f4ab;
+$globalcolor: #327a56;
+
+.card:hover {
+    background: $lightgreen !important;
+    box-shadow: 2px 2px 2px 1px rgba(211, 201, 201, 0.2);
+}
+
+
+
+
+.cardcircle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background-color: azure;
+    position: relative;
+    border: 1 px solid #272525;
+    box-shadow: 2px 2px 2px 1px rgba(107, 106, 106, 0.2);
+
+    .content {
+        position: absolute;
+        color: #272525;
+    }
+}
+.cardcircle:hover{
+    background-color: #5fce98;
+}

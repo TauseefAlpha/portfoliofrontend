@@ -1,0 +1,77 @@
+$lightgreen: #64f4ab;
+$globalcolor: #327a56;
+
+.wrappercount {
+    width: 100%;
+    min-height: 70vh;
+    background-color: #25262a;
+    position: relative;
+}
+
+.countdiv {
+    padding: 5rem 0rem;
+    margin-right: 4px;
+    background-color: black;
+}
+
+.experiencecount1 .countdiv:first-child {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.experiencecount .countdiv:last-child {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.counststyle {
+    font-size: 50px;
+    font-weight: bold;
+    color: $lightgreen ;
+}
+
+
+.countercircle {
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100px;
+    border: 20px solid rgb(255, 196, 0, 0.7);
+    top: 90px;
+    right: 90px;
+    z-index: 0;
+}
+
+.bottomcircle {
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100px;
+    background-color: rgb(255, 196, 0, 0.7);
+    bottom: 90px;
+    left: 90px;
+    z-index: 0;
+}
+
+@media(max-width:768px) {
+    .experiencecount1 .countdiv:first-child {
+        border-radius: 50px 50px 0px 0px;
+        margin-top: 20px;
+    }
+
+    .bottomcircle {
+        bottom: 40px;
+        left: 30px;
+
+    }
+
+    .countercircle {
+
+        top: 40px;
+        right: 30px;
+
+    }
+
+    .experiencecount .countdiv:last-child {
+        border-radius: 0px 0px 50px 50px;
+        margin-bottom: 20px;
+    }
+}

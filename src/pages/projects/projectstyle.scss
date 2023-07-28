@@ -1,0 +1,12 @@
+.wrapper {
+        min-height: 110vh;
+        width: 100%;
+        background-color: #25262a;
+
+}
+
+@media(max-width:768px) {
+        .wrapper {
+                padding-bottom: 30px;
+        }
+}

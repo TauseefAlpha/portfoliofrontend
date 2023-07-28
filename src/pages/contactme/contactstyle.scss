@@ -1,0 +1,63 @@
+$lightgreen: #64f4ab;
+$globalcolor: #327a56;
+
+.contactwrapper {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #25262a;
+    text-align: center;
+   
+
+    .parent {
+        position: relative;
+        z-index: 1
+    }
+
+    .circle {
+
+        height: 6rem;
+        width: 6rem;
+        border-radius: 100px;
+        background-color: $lightgreen;
+        /* For browsers that do not support gradients */
+        background-image: linear-gradient($lightgreen, $globalcolor);
+        position: absolute;
+        top: -31px;
+        left: -21px;
+        z-index:1
+        
+        
+    }
+
+    .hollowcircle {
+        height: 9rem;
+        width: 9rem;
+        border-radius: 100px;
+        border: 20px solid $lightgreen;
+        position: absolute;
+        top: 166px;
+        right: -45px
+    }
+
+    .info {
+        background-color: rgb(24, 24, 26);
+        border-radius: 30px;
+        box-shadow: 10px 5px 8px black;
+
+        .daline {
+            text-align: center;
+            width: 60px;
+            font-size: bold;
+            color: aqua;
+            margin: 0px auto;
+            border-bottom: 3px solid #64f4ab;
+        }
+
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+    }
+}

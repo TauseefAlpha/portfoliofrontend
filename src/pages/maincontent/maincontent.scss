@@ -1,0 +1,43 @@
+.maincontent {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #25262a;
+}
+
+
+.cards {
+    height: 200px;
+    width: 90%;
+    border: 1 solid rgb(43, 41, 41);
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: #25262a;
+
+}
+
+.cardcircle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 1 px solid #272525;
+    box-shadow: 2px 2px 2px 1px rgba(107, 106, 106, 0.2);
+}
+
+.content {
+    max-width: 470px;
+}
+
+.cardinfo div.col-md-6:nth-child(2) {
+
+    align-self: flex-end;
+    transform: translateY(40px)
+}
+
+@media(max-width:768px) {
+
+    .cardinfo div.col-md-6:nth-child(2) {
+
+        transform: translateY(0px)
+    }
+
+}

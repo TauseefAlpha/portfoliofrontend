@@ -1,0 +1,43 @@
+$lightgreen: #64f4ab;
+$globalcolor: #327a56;
+
+.wrapperquote {
+    width: 100%;
+    min-height: 120vh;
+    background-color: #25262a;
+
+    .imgcontainer {
+        position: relative;
+    }
+
+    .name {
+        color: $lightgreen
+    }
+
+    .designation {
+        color: azure;
+    }
+
+    .imgwrap {
+        position: absolute;
+        width: 80%;
+        height: 70vh;
+        background-color: rgb(204, 205, 206, 0.2);
+        transform: rotate(-15deg);
+        border-radius: 40px 40px 0px 0px,
+    }
+}
+
+@media(max-width:768px) {
+    .wrapperquote .imgwrap {
+        width: 100%;
+        height: 70vh;
+        transform: rotate(-15deg);
+
+    }
+
+    .image {
+        width: 100%;
+        height: 70vh;
+    }
+}

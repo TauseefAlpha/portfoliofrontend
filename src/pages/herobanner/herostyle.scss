@@ -1,0 +1,85 @@
+$lightgreen: #64f4ab;
+$globalcolor: #327a56;
+$gradient: linear-gradient(to bottom right, red, yellow);
+// linear-gradient(to bottom right, #64f4ab, #327a56)
+
+.herocontainner {
+    width: 100%;
+}
+
+
+
+.bg-dark {
+    background: linear-gradient(linear-gradient(45deg, blue, red)) !important;
+
+}
+
+.intro {
+    padding-top: 50px;
+    color: $globalcolor ;
+    font-size: larger;
+}
+
+.heading {
+    font-size: 6vw;
+}
+
+.content {
+    max-width: 470px;
+    color: #ffff;
+}
+
+
+.circle {
+    position: relative;
+    height: 80vh;
+    width: 80%;
+    border: 80px solid $globalcolor;
+    border-radius: 100%;
+
+    .imagclass {
+        opacity: 0;
+    }
+
+    .smallcircle {
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        background-color: rgb(41, 38, 38);
+    }
+
+    .left1 {
+        position: absolute;
+        left: -77px;
+        top: 0px;
+        color: $lightgreen;
+    }
+
+    .left2 {
+        position: absolute;
+        left: -112px;
+        top: 131px;
+        color: $lightgreen;
+    }
+
+    .Right1 {
+        position: absolute;
+        right: -76px;
+        top: 0%;
+        color: $lightgreen
+    }
+
+    .right3 {
+        position: absolute;
+        right: -109px;
+        top: 121px;
+        color: $lightgreen
+    }
+}
+
+@media(max-width:768px) {
+    .profileimg {
+        width: 106% !important;
+        height: 387px !important;
+    }
+}
