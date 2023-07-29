@@ -26,9 +26,10 @@ const Navbar = ({ timeline, ease }) => {
 
   return (
     <>
+
       <nav className={`navbar navbar-expand-sm   navbar-dark bg-dark sticky-top navbar-custom`} >
         <div className={`container-fluid navbar-custom`}>
-          <a to="/" className="navbar-brand ">
+          <a href="/" className="navbar-brand ">
             <img
               ref={el => logoimg = el}
               src={logo}
@@ -37,10 +38,10 @@ const Navbar = ({ timeline, ease }) => {
               height={60}
             />
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" style={{ justifyContent: "space-around" }} id="mynavbar">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{justifyContent:"center"}} >
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
               <li className="nav-item active">
                 <a className="nav-link fs-5" href="#">Home</a>

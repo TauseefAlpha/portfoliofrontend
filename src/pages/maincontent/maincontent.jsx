@@ -24,7 +24,7 @@ const Maincontent = () => {
                                 Developing new and attractive user Interfaces using React.js Building reusable components and front-end libraries for future use.Convert your Figma designs to HTML CSS code optimizing components for maximum performance across a vast array of web-capable devices and browsersStrong proficiency in JavaScript, including DOM manipulation and the JavaScript object model.Thorough understanding of React.js and its core principles
                                 Experience with popular React.js workflows (Redux toolkit for global state management).Familiarity with code versioning tools  such as Git</p>
                             <div>
-                                <Btn link='./MernstackResume1.pdf' name={"Download Cv"} />
+                                <Btn link='./mernstackresume.pdf' name={"Download Cv"} />
                             </div>
                         </div>
 

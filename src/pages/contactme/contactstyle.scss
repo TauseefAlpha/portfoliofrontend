@@ -6,7 +6,7 @@ $globalcolor: #327a56;
     min-height: 80vh;
     background-color: #25262a;
     text-align: center;
-   
+
 
     .parent {
         position: relative;
@@ -15,18 +15,15 @@ $globalcolor: #327a56;
 
     .circle {
 
-        height: 6rem;
-        width: 6rem;
+        height: 9rem;
+        width: 9rem;
         border-radius: 100px;
         background-color: $lightgreen;
-        /* For browsers that do not support gradients */
         background-image: linear-gradient($lightgreen, $globalcolor);
         position: absolute;
-        top: -31px;
-        left: -21px;
-        z-index:1
-        
-        
+        top: -20px;
+        left: 100px;
+        z-index: 1
     }
 
     .hollowcircle {
@@ -35,8 +32,8 @@ $globalcolor: #327a56;
         border-radius: 100px;
         border: 20px solid $lightgreen;
         position: absolute;
-        top: 166px;
-        right: -45px
+        bottom: 0px;
+        right: 120px
     }
 
     .info {
@@ -60,4 +57,26 @@ $globalcolor: #327a56;
         font-size: 50px;
         color: rgb(255, 255, 255);
     }
+}
+
+
+@media(max-width:768px) {
+    .contactwrapper {
+        .circle {
+           position: relative;
+            height: 3rem;
+            width: 3rem;
+            top: -31px;
+            left: -21px;
+        }
+
+        .hollowcircle {
+            position: relative;
+            height: 3rem;
+            width: 3rem;
+            top: 166px;
+            right: -45px
+        }
+    }
+
 }
