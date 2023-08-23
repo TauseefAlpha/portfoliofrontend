@@ -28,7 +28,8 @@ const Detailcomp = ({ timeline, ease, title, image, detail, demo, code, ind, Scr
     }, [])
 
     return (
-        <div className={ind % 2 === 0 ? "row d-flex justify-content-between" : "row d-flex flex-row-reverse justify-content-between "}>
+        // d-flex justify-content-between
+        <div className={ind % 2 === 0 ? "row " : "row d-flex flex-row-reverse "}>
             <div className={ind % 2 === 0 ? "col-md-6" : "col-md-6 d-flex justify-content-end justify-content-md-center  align-items-end detail"}>
                 <div>
                     <p className='intro '>--Projects</p>
@@ -41,7 +42,7 @@ const Detailcomp = ({ timeline, ease, title, image, detail, demo, code, ind, Scr
             </div>
             <div className="col-md-6 p-md-2 ">
                 <div className='wrap'>
-                    <div className='imagewrap'></div>
+                    {/* <div className='imagewrap'> <img src='' alt=''/></div> */}
                     {/* ref={el => imagerorate = el}  */}
                     <img className='images' src={image} ref={heroimg} />
                 </div>

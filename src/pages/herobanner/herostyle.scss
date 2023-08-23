@@ -77,9 +77,16 @@ $gradient: linear-gradient(to bottom right, red, yellow);
     }
 }
 
+@media(max-width:900px) {
+    .profileimg {
+width: 100%;
+    height: 50vh;
+    }
+        
+}
 @media(max-width:768px) {
     .profileimg {
-        width: 106% !important;
+        width: 100% !important;
         height: 387px !important;
     }
 }
